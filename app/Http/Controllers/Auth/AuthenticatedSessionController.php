@@ -34,7 +34,7 @@ class AuthenticatedSessionController extends Controller
         }
 
         // Normal user dashboard
-        return redirect()->intended(route('dashboard')); // e.g., rooms list or user dashboard
+        return redirect()->intended(route('rooms')); // e.g., rooms list or user dashboard
     }
 
     /**
